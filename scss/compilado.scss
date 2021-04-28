@@ -1,0 +1,52 @@
+@import "header";
+@import "eventos";
+@import "footer";
+.body__404 {
+    background-color: #0B046B;
+    height: 100vh;
+}
+
+.container__404 {
+    border-radius: 50px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 0px 350px;
+    background-image: url(../imgeventos/bannerbar.JPG);
+}
+
+.error__404 {
+    opacity: 0.75;
+    width: 500px;
+    height: 300px;
+    background-color: #a52a2a;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.logo__404 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.boton__404 {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.boton__404:hover {
+    background-color: #0B046B;
+    color: red;
+    box-shadow: 5px 5px 5px 0px #1609d3;
+}
